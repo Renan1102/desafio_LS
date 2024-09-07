@@ -1,0 +1,98 @@
+.all {
+  width: 100vw;
+}
+.header {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f5fffb; /* Ajuste conforme seu guia de estilo */
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searchContainer {
+  flex: 1;
+}
+
+.searchInput {
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 3px 3px #c4eed1;
+}
+
+.nav {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navItem {
+  margin: 0 15px;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: #018762; /* Ajuste conforme seu guia de estilo */
+  font-weight: bold;
+}
+
+.navItem a:hover {
+  color: #007756; /* Cor de destaque ao passar o mouse */
+  background-color: #ebf9f0;
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  color: #018762;
+}
+
+.ico {
+  height: 40px;
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o logotipo */
+    margin-bottom: 10px;
+    width: 100%; /* Garante que ocupe a largura total do header em telas pequenas */
+  }
+
+  .searchContainer {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .searchInput {
+    width: 80%;
+  }
+
+  .nav {
+    font-size: clamp(0.8rem, 2.2vw, 1.4rem);
+    width: 100%;
+    justify-content: center;
+  }
+}
