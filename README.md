@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Desafio Lacrei Saúde
 
-## Getting Started
+## Descrição
+<p align="justify">Este projeto consiste no desenvolvimento de duas páginas web interativas para a Lacrei Saúde, utilizando Next.js. O objetivo é demonstrar a criação de uma interface responsiva, com um header e footer estilizados, e conteúdo principal junto com botões de navegação funcionais.</p>
 
-First, run the development server:
+## 1.Planejamento e Design
+Antes de iniciar o desenvolvimento, revisei o guia de estilo da Lacrei Saúde para garantir que o projeto estivesse alinhado com a identidade visual da marca. O foco foi criar uma experiência de usuário coesa e atraente.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 2. Desenvolvimento do Header
+O primeiro passo foi desenvolver o cabeçalho (header) da página. O header inclui:<br/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Ícone ilustrativo: Colocado no canto esquerdo do cabeçalho.
+- Botões de Navegação: Centralizados, incluindo links para as páginas principais: Home, Quem somos, Propósito, e About.
+- Barra de Pesquisa: Localizada no canto esquerdo, para facilitar a pesquisa no site (decorativo).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 3. Desenvolvimento do Footer
+O footer foi projetado para fornecer informações adicionais e links importantes, como:<br/>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Contato da Lacrei Saúde.
+- Links para redes sociais.
+- Informações de copyright.
 
-## Learn More
+## 4. Desenvolvimento do Conteúdo Principal
+O conteúdo principal foi adicionado após o desenvolvimento do header e footer. Utilizei imagens para destacar informações importantes e tornar a página mais visualmente atraente. Adicionei também botões que redirecionam para conteúdos úteis no site da Lacrei Saúde, como:
 
-To learn more about Next.js, take a look at the following resources:
+Visite a lacrei saúde: Link para a página principal da Lacrei Saúde.
+O que nos motiva: Link para a página sobre os valores da Lacrei Saúde.
+Saber mais +: Direcionamente para a segunda página que contém um texto e imagem sobre o propósito da Lacrei Saúde.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 5. Testes e Validação
+Realizei testes de responsividade para garantir que o site funcionasse bem em diferentes tamanhos de tela.<br/>
+Além disso, utilizei o Jest para implementar testes simples e validar o funcionamento do código.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 6. Deploy
+Após a conclusão do desenvolvimento e testes, o projeto foi implementado e está disponível para acesso público. O link para a aplicação ao vivo pode ser encontrado aqui.
