@@ -1,7 +1,15 @@
 # Desafio Lacrei Saúde
+## [Clique aqui para ver <-](https://desafio-ls.vercel.app/)
 
 ## Descrição
 <p align="justify">Este projeto consiste no desenvolvimento de duas páginas web interativas para a Lacrei Saúde, utilizando Next.js. O objetivo é demonstrar a criação de uma interface responsiva, com um header e footer estilizados, e conteúdo principal junto com botões de navegação funcionais.</p>
+
+## Construção com:
+
+- TypeScript e feito em Next.JS
+- Style-Components;
+- Style guide a ser seguido;
+- Responsividade.
 
 ## 1.Planejamento e Design
 Antes de iniciar o desenvolvimento, revisei o guia de estilo da Lacrei Saúde para garantir que o projeto estivesse alinhado com a identidade visual da marca. O foco foi criar uma experiência de usuário coesa e atraente.
